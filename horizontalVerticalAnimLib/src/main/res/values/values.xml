@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="HorizontalVerticalAnimateView">
+        <attr format="string" name="my_custom_attribute" />
+        <attr format="integer" name="minArrow"/>
+        <attr format="integer" name="transparencyLowLimit"/>
+        <attr format="integer" name="transparencyHighLimit"/>
+        <attr format="integer" name="maxArrow"/>
+        <attr format="integer" name="maxPlay"/>
+        <attr format="integer" name="minPlay"/>
+        <attr format="integer" name="minSize"/>
+        <attr format="integer" name="maxSize"/>
+        <attr format="integer" name="maxSpeed"/>
+        <attr format="integer" name="minSpeed"/>
+        <attr format="reference" name="horizontalDrawable" />
+        <attr format="reference" name="verticalDrawable" />
+        <attr format="integer" name="horizontalAngle"/>
+        <attr format="integer" name="verticalAngle"/>
+
+    </declare-styleable>
+</resources>

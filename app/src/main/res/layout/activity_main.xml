@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradient_background">
+
+<com.sid.hor_ver_lib.AnimateVerHorView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:horizontalDrawable="@drawable/ic_clowd"
+    app:verticalDrawable="@drawable/ic_raindrop"
+    app:minSize="25"
+    app:maxSize="35"
+    app:transparencyLowLimit="60"
+    app:transparencyHighLimit="100"
+    app:maxArrow="30"
+    app:minArrow="25"
+    app:minPlay="20"
+    app:maxPlay="15"
+    app:minSpeed="3"
+    app:maxSpeed="10"
+    app:horizontalAngle="0"
+    app:verticalAngle="3"
+    />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
